@@ -14,17 +14,25 @@ This project explores a Netflix Database extract from Kaggle, showing the transf
 # 2. Exploratory Data Analysis
 
   Key metrics Analysis
+  
     - Total titles by year added.
+    
     - Top 10 Countries by # titles.
+    
     - Top 10 Genres by # titles.
+    
     - Top 5 rating by # titles.
+    
     - Top 5 Genres: # titles added per year.
 
 # 3. Advanced DAX Calculations
 
   I applied DAX Formulas to generate:
+  
      - Top Country
+     
      - Top Genre
+     
      - Top Rating
 
 
