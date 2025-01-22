@@ -20,11 +20,11 @@ Here is the complete SQL Documentation for data cleaning.
    |duration|nvarchar(50)|Content duration|<p>90 min</p><p>1 Season</p>|
    |description|text|Brief description of the content|As her father nears the end of his life, filmmaker Kirsten Johnson stages his death in inventive and comical ways to help them both face the inevitable.|
 
-1. **Back up my Netflix\_titles table.**
+**1. Back up my Netflix\_titles table.**
 
    ![image](https://github.com/user-attachments/assets/d5bbb442-3751-4cd5-95d0-e16162ed6ed0)
 
-1. **Data Cleaning.**
+ **Data Cleaning.**
 
 `	`**3.1 Drop unnecessary columns.**
 
@@ -38,12 +38,12 @@ There were 3 rows where the duration value was incorrectly placed in the rating 
 ![image](https://github.com/user-attachments/assets/b4807753-726e-459b-997f-b7102cd084ef)
 
 
-**3.3 	Search for nulls values in the data**
+**3.3 Search for nulls values in the data**
 
 ![image](https://github.com/user-attachments/assets/b4220c0b-d42f-4174-a5bb-93191ca6ca8e)
 
 
-1. **Countries Normalization** 
+4. **Countries Normalization** 
 
    **4.1 Countries table**
 
