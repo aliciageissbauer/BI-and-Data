@@ -2,7 +2,7 @@
 
 # 📝 Project Overview 
 
-This project explores a Netflix Database from Kaggle, showing the transformation of raw data into actionable insights using SQL and Power BI. 
+This project explores a Netflix Database extract from Kaggle, showing the transformation of raw data into actionable insights using SQL and Power BI. 
 
 # 🔧 Key Features
 
@@ -11,20 +11,42 @@ This project explores a Netflix Database from Kaggle, showing the transformation
   - Cleaned and transformed the dataset to ensure data integrity.
   - Creation of new tables to Normalize Countries and Genres.
   
-# 2 Exploratory Data Analysis
+# 2. Exploratory Data Analysis
 
-Key metrics analysis:
--Total # titles by Year Added
--
+  Key metrics Analysis
+    - Total titles by year added.
+    - Top 10 Countries by # titles
+    - Top 10 Genres by # titles
+    - Top 5 rating by # titles
+    - Top 5 Genres: # titles added per year
 
-# Tables Description
-show_id: Primary Key, ID for every show
+# 3. Advanced DAX Calculations
 
-type: Movie or TV Show
+  I applied DAX Formulas to generate:
+     - Top Country
+     - Top Genre
+     - Top Rating
 
-title: Movie or TV Title
-director: Contains the Director's Name, could be 1 or more
-cast: Contains the Actor's Names, usually more than 1 Name.
-country: This column contains all the countries where the Title is available
-date_added: 
+
+# 🎯 Key Insights
+
+  - Movies are the type of content most popular.
+  - United States is the Country with more amount of content
+  - The most popular Genre is Drama.
+  - The most popular Rating is TV-MA
+  - Kids content started to be more popular on 2019 (Same year that Disney+ started)
+
+# 📁 Project Documentary
+
+  -Dataset: Netflix Database
+  
+
+# 📊 Dashboard 
+![image](https://github.com/user-attachments/assets/b47902d4-c4e2-4f57-99cf-de41525bf2a2)
+
+
+
+
+
+
 
