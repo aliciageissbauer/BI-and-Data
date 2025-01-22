@@ -20,30 +20,30 @@ Here is the complete SQL Documentation for data cleaning.
    |duration|nvarchar(50)|Content duration|<p>90 min</p><p>1 Season</p>|
    |description|text|Brief description of the content|As her father nears the end of his life, filmmaker Kirsten Johnson stages his death in inventive and comical ways to help them both face the inevitable.|
 
-**1. Back up my Netflix\_titles table.**
+**2. Back up my Netflix\_titles table.**
 
    ![image](https://github.com/user-attachments/assets/d5bbb442-3751-4cd5-95d0-e16162ed6ed0)
 
- **Data Cleaning.**
+**3. Data Cleaning.**
 
 `	`**3.1 Drop unnecessary columns.**
 
 ![image](https://github.com/user-attachments/assets/ba8d37aa-3470-4956-8cfc-337604b87b3f)
 
 
-**3.2 Correct errors in “duration” and “rating”**
+   **3.2 Correct errors in “duration” and “rating”**
 
 There were 3 rows where the duration value was incorrectly placed in the rating column.
 
 ![image](https://github.com/user-attachments/assets/b4807753-726e-459b-997f-b7102cd084ef)
 
 
-**3.3 Search for nulls values in the data**
+   **3.3 Search for nulls values in the data**
 
 ![image](https://github.com/user-attachments/assets/b4220c0b-d42f-4174-a5bb-93191ca6ca8e)
 
 
-4. **Countries Normalization** 
+**4. Countries Normalization** 
 
    **4.1 Countries table**
 
@@ -55,7 +55,7 @@ There were 3 rows where the duration value was incorrectly placed in the rating 
 ![image](https://github.com/user-attachments/assets/9c6ce359-17d2-4cf9-b671-bef964f58ae5)
 
 
-**4.2 ShowsCountries table**
+   **4.2 ShowsCountries table**
 
 To connect our netflix\_titles to the Countries table, I created an intermediary table containing the IDs from both tables:
 
@@ -66,14 +66,14 @@ To connect our netflix\_titles to the Countries table, I created an intermediary
 ![image](https://github.com/user-attachments/assets/12966bdc-3292-4149-8849-5524f2232f19)
 
 
-**4.3 Double-check relationships between ShowCountry - Countries**
+   **4.3 Double-check relationships between ShowCountry - Countries**
 
 ![image](https://github.com/user-attachments/assets/cbf479c2-4391-42c2-830f-63e0761000b8)
 
 
 
 
-1. **Genres Normalization**
+**5. Genres Normalization**
 
    **5.1 Create Genre table**
 
@@ -85,7 +85,7 @@ To connect our netflix\_titles to the Countries table, I created an intermediary
 ![image](https://github.com/user-attachments/assets/c44c6a39-3aaf-4a53-8ab7-d8ec9ecf679c)
 
 
-**5.2 Create intermediate table “ShowsGenre”**
+   **5.2 Create intermediate table “ShowsGenre”**
 
 This table contains IDs from netflix\_titles and Genre
 
@@ -96,12 +96,12 @@ This table contains IDs from netflix\_titles and Genre
 ![image](https://github.com/user-attachments/assets/8036912a-a066-4f94-87a7-c0ab2f0db4aa)
 
 
-**5.3 Double-check relationships between ShowGenre - Genre**
+   **5.3 Double-check relationships between ShowGenre - Genre**
 
 ![image](https://github.com/user-attachments/assets/aae2e515-540d-4296-b1c9-28e8cc533e78)
 
 
-1. **Deleting repeated values**
+**6. Deleting repeated values**
 
    **6.1 Identify affected records**
 
