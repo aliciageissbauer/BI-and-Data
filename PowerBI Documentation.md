@@ -1,5 +1,5 @@
 ﻿# <a name="_s775r8e9wp8k"></a>**🎥 Power BI Netflix Dashboard**
-**Data Preparation**
+**1. Data Preparation**
 After completing the data cleaning in SQL, I connected to my SQL tables using the following steps:
 
 1. Navigate to **Get Data**.
