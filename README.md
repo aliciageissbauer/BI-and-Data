@@ -1,12 +1,21 @@
-# Netflix Dashboard
+# 🎥 Netflix Dashboard 
 
-Hello!
+# 📝 Project Overview 
 
-This is a project about a Netflix Database that I founded in Kaggle.
-For this project, I worked with SQL for Data cleaning and Normalization and Power BI for data visualization.
+This project explores a Netflix Database from Kaggle, showing the transformation of raw data into actionable insights using SQL and Power BI. 
 
-# Objective
-Analyze a Netflix database and find insights through Data visualization
+# 🔧 Key Features
+
+#  1. ETL and Data Preparation
+
+  - Cleaned and transformed the dataset to ensure data integrity.
+  - Creation of new tables to Normalize Countries and Genres.
+  
+# 2 Exploratory Data Analysis
+
+Key metrics analysis:
+-Total # titles by Year Added
+-
 
 # Tables Description
 show_id: Primary Key, ID for every show
