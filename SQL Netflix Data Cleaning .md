@@ -26,7 +26,7 @@ Here is the complete SQL Documentation for data cleaning.
 
 **3. Data Cleaning.**
 
-`	`**3.1 Drop unnecessary columns.**
+   **3.1 Drop unnecessary columns.**
 
 ![image](https://github.com/user-attachments/assets/ba8d37aa-3470-4956-8cfc-337604b87b3f)
 
