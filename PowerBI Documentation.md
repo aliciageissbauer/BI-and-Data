@@ -25,14 +25,15 @@ After completing the data cleaning in SQL, I connected to my SQL tables using th
 
 
 **4. DAX Measures**
-3\.1 **sum\_titles**
+
+**4.1 sum\_titles**
 
 - This measure calculates the distinct count of all movies and TV shows.
 
 ![image](https://github.com/user-attachments/assets/2487b3d4-f0dd-4166-b667-ddc124eef891)
 
 
-3\.2 **TitlesByCountry / TitlesByGenre / TitlesByRating**
+**4.2 TitlesByCountry / TitlesByGenre / TitlesByRating**
 
 - Using the sum\_titles measure, these calculations provide the number of titles by country, genre, and rating.
 
@@ -40,7 +41,7 @@ After completing the data cleaning in SQL, I connected to my SQL tables using th
 ![image](https://github.com/user-attachments/assets/9940f7c8-f49b-466a-a57f-77de43d9b7ec)
 ![image](https://github.com/user-attachments/assets/62515b4e-daa8-4c51-8fb0-2614f4ab7c72)
 
-3\.3 **TopCountryName / TopGenre / TopRating**
+**4.3 TopCountryName / TopGenre / TopRating**
 
 - These measures identify the top country, genre, and rating based on the corresponding titles using TitlesByCountry, TitlesByGenre, and TitlesByRating.
 
@@ -48,7 +49,7 @@ After completing the data cleaning in SQL, I connected to my SQL tables using th
 ![image](https://github.com/user-attachments/assets/6edd854c-9d00-495f-ac3c-4c30ae01ab38)
 ![image](https://github.com/user-attachments/assets/9b030a86-f009-4dfe-ae11-d0620551482a)
 
-**Data Visualization** 📊
+**5. Data Visualization** 📊
 I used various chart types to represent the data effectively, including:
 
 - Cards
