@@ -129,6 +129,7 @@ This table contains IDs from netflix\_titles and Genre
 
   ![image](https://github.com/user-attachments/assets/4a76ea91-6c9c-4497-b89a-c20919d1b599)
 
+Dataset: https://www.kaggle.com/datasets/rahulvyasm/netflix-movies-and-tv-shows?resource=download
 
 Thanks to these transformations, we now have 1 fact table and 4 additional tables related to the netflix\_title table.
 
