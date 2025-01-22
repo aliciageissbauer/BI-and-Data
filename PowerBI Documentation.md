@@ -1,4 +1,5 @@
 ﻿# <a name="_s775r8e9wp8k"></a>**🎥 Power BI Netflix Dashboard**
+ 
 **1. Data Preparation**
 After completing the data cleaning in SQL, I connected to my SQL tables using the following steps:
 
@@ -6,9 +7,11 @@ After completing the data cleaning in SQL, I connected to my SQL tables using th
 1. Select **Connect to SQL Server**.
 
 **2. Data Transformation**
-1\.1 **Duplicate the date\_added column in netflix\_titles**
+
+ **Duplicate the date\_added column in netflix\_titles**
 
 - I duplicated this column to split it by a delimiter, creating new columns: day\_added, month\_added, and year\_added.
+- 
 - I also filtered the data to include only the years 2016 to 2021, as they contain relevant data.
 
 
