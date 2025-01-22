@@ -36,10 +36,6 @@ This project explores a Netflix Database extract from Kaggle, showing the transf
   - The most popular Rating is TV-MA
   - Kids content started to be more popular on 2019 (Same year that Disney+ started)
 
-# 📁 Project Documentary
-
-  -Dataset: Netflix Database
-  
 
 # 📊 Dashboard 
 ![image](https://github.com/user-attachments/assets/b47902d4-c4e2-4f57-99cf-de41525bf2a2)
