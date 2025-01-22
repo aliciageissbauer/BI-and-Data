@@ -11,7 +11,6 @@ After completing the data cleaning in SQL, I connected to my SQL tables using th
  **Duplicate the date\_added column in netflix\_titles**
 
 - I duplicated this column to split it by a delimiter, creating new columns: day\_added, month\_added, and year\_added.
-- 
 - I also filtered the data to include only the years 2016 to 2021, as they contain relevant data.
 
 
