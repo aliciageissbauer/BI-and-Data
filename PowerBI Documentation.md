@@ -13,7 +13,9 @@ After completing the data cleaning in SQL, I connected to my SQL tables using th
 
 
 ![image](https://github.com/user-attachments/assets/3158cc8c-8bc4-4549-b746-52800600f4af)
+
 ![image](https://github.com/user-attachments/assets/245ea14e-adce-472a-9296-199f6e9a7b09)
+
 ![image](https://github.com/user-attachments/assets/72898ca7-731f-479c-86ed-8c70b424dbe3)
 
 
