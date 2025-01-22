@@ -15,10 +15,10 @@ This project explores a Netflix Database extract from Kaggle, showing the transf
 
   Key metrics Analysis
     - Total titles by year added.
-    - Top 10 Countries by # titles
-    - Top 10 Genres by # titles
-    - Top 5 rating by # titles
-    - Top 5 Genres: # titles added per year
+    - Top 10 Countries by # titles.
+    - Top 10 Genres by # titles.
+    - Top 5 rating by # titles.
+    - Top 5 Genres: # titles added per year.
 
 # 3. Advanced DAX Calculations
 
