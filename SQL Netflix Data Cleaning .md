@@ -21,10 +21,8 @@ Here is the complete SQL Documentation for data cleaning.
    |description|text|Brief description of the content|As her father nears the end of his life, filmmaker Kirsten Johnson stages his death in inventive and comical ways to help them both face the inevitable.|
 
 1. **Back up my Netflix\_titles table.**
-![image](https://github.com/user-attachments/assets/d5bbb442-3751-4cd5-95d0-e16162ed6ed0)
 
-   ![](Aspose.Words.53d96ccc-51b5-4e2a-93f6-bff885aafbcd.001.png)
-   
+   ![image](https://github.com/user-attachments/assets/d5bbb442-3751-4cd5-95d0-e16162ed6ed0)
 
 1. **Data Cleaning.**
 
