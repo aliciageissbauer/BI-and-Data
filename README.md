@@ -10,7 +10,9 @@ Analyze a Netflix database and find insights through Data visualization
 
 # Tables Description
 show_id: Primary Key, ID for every show
+
 type: Movie or TV Show
+
 title: Movie or TV Title
 director: Contains the Director's Name, could be 1 or more
 cast: Contains the Actor's Names, usually more than 1 Name.
